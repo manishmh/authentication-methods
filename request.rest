@@ -1,0 +1,22 @@
+GET http://localhost:8080/login
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjp7InVzZXIiOiJtYW5pc2htaDk4MkBnbWFpbC5jb20ifSwiaWF0IjoxNzAwNDMxNDYwfQ.XIP_1TacUQqibs6Z5jvxBycLfn5_i37OQPWsqZJr1WQ
+
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "manishmh982@gmail.com",
+  "password": "manish#@1M"
+}
+
+
+###
+
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "email": "manishkr@gmail.com",
+  "password": "Manish#@1"
+} 
